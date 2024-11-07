@@ -1,0 +1,152 @@
+{
+  "en": {
+    "basic": {
+      "path": "/",
+      "navbar": [
+        {
+          "title": "Home",
+          "url": "/"
+        }
+      ],
+      "play-button": "Play Now",
+      "full-screen-button": "Full Screen",
+      "hot-games": "Hot Bad Parenting Game Wiki games",
+      "other-games": "Try Other Popular Games Online",
+      "blog": {
+        "title": "Bad Parenting Game Wiki Blog",
+        "sub": ["Recent Posts"]
+      },
+      "hot": {
+        "title": "Hot Games on Bad Parenting Game Wiki",
+        "sub": ["#1 Mahjong Games"]
+      },
+      "privacy": {
+        "all": "All rights reserved",
+        "pp": "Privacy Policy"
+      }
+    },
+    "index": {
+      "title": "Bad Parenting 1: Mr Red Face | Bad Parenting Game Wiki",
+      "description": "Bad Parenting 1: Mr Red Face is an innovative indie horror game that explores dark family dynamics through a psychological horror lens | Bad Parenting Game Wiki"
+    },
+   "hot-games": {
+      "title": "Hot Bad Parenting Game Wiki Games Online | Bad Parenting Game Wiki",
+      "description": "Discover Bad Parenting Game Wiki, an engaging puzzle game that combines the beauty of traditional Mahjong tiles with innovative connecting mechanics. | Bad Parenting Game Wiki"
+    },
+    "blog": {
+      "title": "Blog about Playing Bad Parenting Game Wiki Games | Bad Parenting Game Wiki",
+      "description": "Want to learn more about Bad Parenting Game Wiki? Want to see tips and tricks from other players? Read the blog for everything you need! | Bad Parenting Game Wiki"
+    },
+    "mahjong-solitaire": {
+      "title": "Mahjong Solitaire Game Online Play | Bad Parenting Game Wiki",
+      "description": "Experience Mahjong Solitaire, a captivating online puzzle board game that combines traditional rules with modern visuals. | Bad Parenting Game Wiki"
+    }, 
+    "mahjong-tower": {
+      "title": "Mahjong Tower Game Online Play | Bad Parenting Game Wiki",
+      "description": "Mahjong Tower, a captivating puzzle game rated 7.8 by over 6,000 players that offers multiple variations of the classic solitaire mahjong experience. | Bad Parenting Game Wiki"
+    },
+    "piles-of-mahjong": {
+      "title": "Piles of Mahjong Game Online Play | Bad Parenting Game Wiki",
+      "description": "Piles of Mahjong, an engaging and relaxing puzzle game that combines the classic elements of Mahjong with a match-three twist. | Bad Parenting Game Wiki"
+    },
+    "mahjong-titans": {
+      "title": "Mahjong Titans Game Online Play | Bad Parenting Game Wiki",
+      "description": "Mahjong Titans, an iconic Mahjong game that brings the classic tile-matching challenge to life. Your goal is simple yet engaging: continually match pairs of tiles to remove them from the board until none remain. | Bad Parenting Game Wiki"
+    },
+    "mahjong-big": {
+      "title": "Mahjong Big Game Online Play | Bad Parenting Game Wiki",
+      "description": "Mahjong Big, a relaxing yet challenging tile-matching puzzle game rated 8.2 by over 200 players. Challenge yourself to pair identical mahjong tiles. | Bad Parenting Game Wiki"
+    },
+    "mahjong-online": {
+      "title": "Mahjong Online Game Online Play | Bad Parenting Game Wiki",
+      "description": "Mahjong Online, the classic version of the ancient board game, rated 7.9 by over 2,300 players. This timeless puzzle challenges you to clear the board by matching identical patterned tiles. | Bad Parenting Game Wiki"
+    },
+    "mahjong-connect-tips": {
+      "title": "Bad Parenting Game Wiki: Tips, Tricks, and Fun Facts | Bad Parenting Game Wiki",
+      "description": "Bad Parenting Game Wiki is not just a game; it's a fun and strategic experience! Read blog about game tips, tricks, and fun facts. | Bad Parenting Game Wiki"
+    },
+    "mahjong-shanghai": {
+      "title": "Mahjong Shanghai Game Online Play | Bad Parenting Game Wiki",
+      "description": "Mahjong Shanghai, a captivating puzzle game that combines the classic Mahjong rules with a modern twist. | Bad Parenting Game Wiki"
+    }
+  },
+  "fr": {
+    "basic": {
+      "path": "/fr",
+      "navbar": [
+        {
+          "title": "Accueil",
+          "url": "/fr"
+        },
+        {
+          "title": "Jeux Populaires",
+          "url": "/fr/hot-games"
+        },
+        {
+          "title": "Blog",
+          "url": "/fr/blog"
+        }
+      ],
+      "play-button": "Jouer Maintenant",
+      "full-screen-button": "Plein écran",
+      "hot-games": "Jeux Bad Parenting Game Wiki populaires",
+      "other-games": "Essayez d'autres jeux populaires en ligne",
+      "blog": {
+        "title": "Blog sur les Jeux de Bad Parenting Game Wiki",
+        "sub": ["Articles récents"]
+      },
+      "hot": {
+        "title": "Jeux de Bad Parenting Game Wiki populaires",
+        "sub": ["#1 Jeux de Mahjong"]
+      },
+      "privacy": {
+        "all": "Tous droits réservés",
+        "pp": "Politique de confidentialité"
+      }
+    },
+    "index": {
+      "title": "Les Meilleurs Jeux de Bad Parenting Game Wiki en Ligne Gratuits | Bad Parenting Game Wiki",
+      "description": "Découvrez Bad Parenting Game Wiki, un jeu de puzzle captivant qui combine la beauté des tuiles Mahjong traditionnelles avec des mécaniques de connexion innovantes. | Bad Parenting Game Wiki"
+    },
+    "hot-games": {
+      "title": "Jeux de Bad Parenting Game Wiki en Ligne Populaires | Bad Parenting Game Wiki", 
+      "description": "Découvrez Bad Parenting Game Wiki, un jeu de puzzle captivant qui combine la beauté des tuiles Mahjong traditionnelles avec des mécaniques de connexion innovantes. | Bad Parenting Game Wiki"
+    },
+    "blog": {
+      "title": "Blog sur les Jeux de Bad Parenting Game Wiki | Bad Parenting Game Wiki",
+      "description": "Vous voulez en savoir plus sur Bad Parenting Game Wiki ? Vous voulez voir les conseils et astuces d'autres joueurs ? Lisez le blog pour tout ce dont vous avez besoin ! | Bad Parenting Game Wiki"
+    },
+    "mahjong-solitaire": {
+      "title": "Jouer au Solitaire Mahjong en Ligne | Bad Parenting Game Wiki",
+      "description": "Découvrez le Solitaire Mahjong, un jeu de puzzle en ligne captivant qui combine les règles traditionnelles avec des visuels modernes. | Bad Parenting Game Wiki"
+    },
+    "mahjong-tower": {
+      "title": "Jouer à Mahjong Tower en Ligne | Bad Parenting Game Wiki",
+      "description": "Mahjong Tower, un jeu de puzzle captivant noté 7.8 par plus de 6 000 joueurs qui propose plusieurs variations de l'expérience classique du Mahjong Solitaire. | Bad Parenting Game Wiki"
+    },
+    "piles-of-mahjong": {
+      "title": "Jouer à Piles of Mahjong en Ligne | Bad Parenting Game Wiki",
+      "description": "Piles of Mahjong, un jeu de puzzle relaxant et stimulant qui combine les éléments classiques du Mahjong avec une touche de match-3. | Bad Parenting Game Wiki"
+    },
+    "mahjong-titans": {
+      "title": "Jouer à Mahjong Titans en Ligne | Bad Parenting Game Wiki",
+      "description": "Mahjong Titans, un jeu de Mahjong emblématique qui donne vie au défi classique d'association de tuiles. Votre objectif est simple mais captivant : associer continuellement des paires de tuiles pour les retirer du plateau jusqu'à ce qu'il n'en reste plus. | Bad Parenting Game Wiki"
+    },
+    "mahjong-big": {
+      "title": "Jouer à Mahjong Big en Ligne | Bad Parenting Game Wiki",
+      "description": "Mahjong Big, un jeu de puzzle relaxant mais stimulant d'association de tuiles noté 8.2 par plus de 200 joueurs. Défiez-vous en associant des tuiles mahjong identiques. | Bad Parenting Game Wiki"
+    },
+    "mahjong-online": {
+      "title": "Jouer à Mahjong en Ligne | Bad Parenting Game Wiki",
+      "description": "Mahjong en ligne, la version classique de l'ancien jeu de société, noté 7.9 par plus de 2 300 joueurs. Ce puzzle intemporel vous met au défi de vider le plateau en associant des tuiles à motifs identiques. | Bad Parenting Game Wiki"
+    },
+    "mahjong-connect-tips": {
+      "title": "Bad Parenting Game Wiki : Conseils, Astuces et Anecdotes | Bad Parenting Game Wiki",
+      "description": "Bad Parenting Game Wiki n'est pas qu'un simple jeu, c'est une expérience amusante et stratégique ! Lisez le blog pour des conseils de jeu, des astuces et des anecdotes. | Bad Parenting Game Wiki"
+    },
+    "mahjong-shanghai": {
+      "title": "Jouer à Mahjong Shanghai en Ligne | Bad Parenting Game Wiki",
+      "description": "Mahjong Shanghai, un jeu de puzzle captivant qui combine les règles classiques du Mahjong avec une touche moderne. | Bad Parenting Game Wiki"
+    }
+  }
+} 

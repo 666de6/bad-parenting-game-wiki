@@ -1,0 +1,13 @@
+{
+  "name": "Bad Parenting Game Wiki",
+  "version": "1.0.0",
+  "description": "Bad Parenting Game Wiki",
+  "scripts": {
+    "build": "eleventy",
+    "serve": "eleventy --serve",
+    "debug": "DEBUG=* eleventy"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^1.0.0"
+  }
+}
