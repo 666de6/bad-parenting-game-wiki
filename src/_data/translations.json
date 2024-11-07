@@ -6,7 +6,23 @@
         {
           "title": "Home",
           "url": "/"
-        }
+        },
+        {
+          "title": "Story",
+          "url": "#story"
+        },
+        {
+          "title": "Gallery",
+          "url": "#gallery"
+        },
+        {
+          "title": "Download",
+          "url": "#download"
+        },
+        {
+          "title": "Song",
+          "url": "#song"
+        } 
       ],
       "play-button": "Play Now",
       "full-screen-button": "Full Screen",

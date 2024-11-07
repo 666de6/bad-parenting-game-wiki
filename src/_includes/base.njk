@@ -48,20 +48,20 @@
   </script>
 </head>
 <body class="bg-[url('/assets/favicon.ico')] bg-repeat-round w-full max-w-[1000px] m-auto px-4 text-yellow font-mono">
-  <header class="bg-green h-20 flex justify-between items-center py-4 px-4 border-b-2 border-red">
-    <a href="{{ '/' | localizeUrl(lang) }}" alt="Sprunki.top">
-        <div class="w-40 lg:w-60 font-black text-xl">
-          <span>Bad Parenting Game</span>
-          <span class="text-red">Wiki</span> 
-            {# <img class="w-full" src="/assets/logo.png" alt="Sprunki.top"> #}
+  <header class="bg-green h-20 flex justify-between items-center py-4 px-4 border-b-2 border-red sticky top-0 z-[999]">
+    <a href="{{ '/' | localizeUrl(lang) }}" alt="Bad Parenting Game Wiki">
+        <div class="w-44 font-black text-xl bg-gradient-to-r from-green to-red">
+          <p>Bad Parenting</p>
+          <p class="text-red">Game Wiki</p> 
+            {# <img class="w-full" src="/assets/logo.png" alt="Bad Parenting Game Wiki"> #}
         </div>
     </a>
     <div class="flex items-center gap-4">
       <nav id="nav-menu" class="hidden md:block">
-        <div class="flex flex-col fixed z-[9999] top-14 right-4 shadow-md md:static p-4 text-sm lg:text-md md:flex-row items-center gap-4 font-bold">
-          <a href="{{ '/' | localizeUrl(lang) }}" class="nav-link hover:text-red hover:underline hover:decoration-2 hover:underline-offset-8">{{ basicTranslation.navbar[0].title }}</a>
-          <a href="{{ '/hot-games' | localizeUrl(lang) }}" class="nav-link hover:text-red hover:underline hover:decoration-2 hover:underline-offset-8">{{ basicTranslation.navbar[1].title }}</a>
-          <a href="{{ '/blog' | localizeUrl(lang) }}" class="nav-link hover:text-red hover:underline hover:decoration-2 hover:underline-offset-8">{{ basicTranslation.navbar[2].title }}</a>
+        <div class="shadow-md shadow-[#ffca4e] bg-green md:shadow-none flex flex-col fixed z-[9999] top-14 right-4 shadow-md md:static p-4 text-sm lg:text-md md:flex-row items-center gap-4 font-bold">
+          {% for item in basicTranslation.navbar %}
+            <a href="{{ item.url | localizeUrl(lang) }}" class="nav-link hover:text-red hover:underline hover:decoration-2 hover:underline-offset-8">{{ item.title }}</a>
+          {% endfor %}
           
         </div>
       </nav>
@@ -92,7 +92,7 @@
 
   </header>
 
-  {% if gamedata[currentSlug] and currentSlug != 'index' %}
+  {# {% if gamedata[currentSlug] and currentSlug != 'index' %}
     <nav class="mt-4 font-sans">
       <a href="{{ '/' | localizeUrl(lang) }}" class="nav-link hover:text-red hover:underline hover:decoration-2 hover:underline-offset-8">{{ basicTranslation.navbar[0].title }}</a>
       >
@@ -100,11 +100,11 @@
       >
       <a href="{{ gamedata[currentSlug].path | localizeUrl(lang) }}" class="nav-link hover:text-red hover:underline hover:decoration-2 hover:underline-offset-8">{{ gamedata[currentSlug].name }}</a>
     </nav>
-  {% endif %}
+  {% endif %} #}
 
   {{ content | safe }}
   
-  <footer class="mt-10 py-5 flex flex-col justify-center items-center text-center">
+  <footer class="bg-green border-t-2 border-red py-5 flex flex-col justify-center items-center text-center">
     <div class=" w-full mt-10">
       <h2 class="text-xl mb-2 text-center lg:text-2xl text-yellow font-black font-sans underline decoration-double">{{ basicTranslation["other-games"] }}</h2>
       <div class="flex flex-row flex-wrap items-center justify-center gap-2">
@@ -131,7 +131,7 @@
     {# <div class="relative w-full h-60">
       <div class="w-full h-full absolute top-0 left-0 bg-[url('/assets/2.jpeg')] bg-center brightness-50 grayscale"></div>
       <div class="w-full h-full absolute top-0 left-0 flex flex-col items-center justify-center text-white">
-        <p class="text-2xl lg:text-4xl text-white font-black font-sans text-center">Welcome to Sprunki.top!</p>
+        <p class="text-2xl lg:text-4xl text-white font-black font-sans text-center">Welcome to Bad Parenting Game Wiki!</p>
         <p class="text-sm lg:text-lg text-center text-white">Unleash your inner music maestro in this innovative audio experience with Sprunki Incredibox!</p>
         <a href="/">
           <button id="playButton" class="flex text-black items-center mt-10 h-10 bg-light-green px-4 rounded-full hover:scale-125">
@@ -177,13 +177,24 @@
   <script>
     document.getElementById('copyright').innerText = new Date().getFullYear() + '';
     document.addEventListener("DOMContentLoaded", function() {
-      const currentUrl = window.location.pathname;
+      const currentUrlHash = window.location.hash;
+      console.log(currentUrlHash)
       const navLinks = document.querySelectorAll('.nav-link');
 
       navLinks.forEach(link => {
-        if (link.getAttribute('href') === currentUrl) {
+        if (link.getAttribute('href') === currentUrlHash) {
           link.classList.add('text-red');
         }
+      });
+
+      window.addEventListener('hashchange', function() {
+        const newUrlHash = window.location.hash;
+        navLinks.forEach(link => {
+          link.classList.remove('text-red');
+          if (link.getAttribute('href') === newUrlHash) {
+            link.classList.add('text-red');
+          }
+        });
       });
     });
 
