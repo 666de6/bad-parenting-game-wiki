@@ -48,6 +48,10 @@
   </script>
 </head>
 <body class="bg-[url('/assets/favicon.ico')] bg-repeat-round w-full max-w-[1000px] m-auto px-4 text-yellow font-mono">
+  {# FB comment #}
+  <div id="fb-root"></div>
+  <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v21.0"></script>
+  {# FB comment #}
   <header class="bg-green h-20 flex justify-between items-center py-4 px-4 border-b-2 border-red sticky top-0 z-[999]">
     <a href="{{ '/' | localizeUrl(lang) }}" alt="Bad Parenting Game Wiki">
         <div class="w-44 font-black text-xl bg-gradient-to-r from-green to-red">

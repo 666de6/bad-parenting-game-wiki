@@ -22,7 +22,11 @@
         {
           "title": "Song",
           "url": "#song"
-        } 
+        },
+        {
+          "title": "Comments",
+          "url": "#comment"
+        }
       ],
       "play-button": "Play Now",
       "full-screen-button": "Full Screen",
@@ -45,9 +49,9 @@
       "title": "Bad Parenting 1: Mr Red Face | Bad Parenting Game Wiki",
       "description": "Bad Parenting 1: Mr Red Face is an innovative indie horror game that explores dark family dynamics through a psychological horror lens | Bad Parenting Game Wiki"
     },
-   "hot-games": {
-      "title": "Hot Bad Parenting Game Wiki Games Online | Bad Parenting Game Wiki",
-      "description": "Discover Bad Parenting Game Wiki, an engaging puzzle game that combines the beauty of traditional Mahjong tiles with innovative connecting mechanics. | Bad Parenting Game Wiki"
+   "privacy": {
+      "title": "Bad Parenting 1: Mr Red Face Privacy | Bad Parenting Game Wiki",
+      "description": "Welcome to badparentinggame.wiki. Bad Parenting Game is an innovative indie horror game that explores dark family dynamics | Bad Parenting Game Wiki"
     },
     "blog": {
       "title": "Blog about Playing Bad Parenting Game Wiki Games | Bad Parenting Game Wiki",
