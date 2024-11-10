@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{{ lang }}">
+<html lang="en">
 <head>
   {% set lang = page.url | startsWith("/fr/") | ternary("fr", "en") %}
   {% set currentSlug = page.url | replace("/fr/", "") | replace("/en/", "") | replace("blog/", "") | replace("/", "") %}
@@ -15,7 +15,7 @@
   <meta name="description" content="{{ pageTranslation.description }}">
   <meta property="og:title" content="{{ pageTranslation.title }}" />
   <meta property="og:description" content="{{ pageTranslation.description }}" />
-  <meta property="og:url" content="https://badparentinggame.wiki{{ page.url | removeTrailingSlash }}" />
+  <meta property="og:url" content="https://badparentinggame.wiki{{ page.url }}" />
   <meta property="og:site_name" content="badparentinggame.wiki" />
   <meta property="og:image" content="https://badparentinggame.wiki/assets/badparenting.png" />
   <meta property="og:type" content="website" />
@@ -23,7 +23,7 @@
   <meta name="twitter:title" content="{{ pageTranslation.title }}" />
   <meta name="twitter:description" content="{{ pageTranslation.description }}" />
   <meta name="twitter:image" content="https://badparentinggame.wiki/assets/badparenting.png" />
-  <link rel="canonical" href="https://badparentinggame.wiki{{ page.url | removeTrailingSlash }}" />
+  <link rel="canonical" href="https://badparentinggame.wiki{{ page.url }}" />
 
 
   <!-- <meta name="google-adsense-account" content="ca-pub-5331303144323541"> -->
@@ -72,7 +72,7 @@
       <button id="menu-toggle" class="md:hidden p-2">
         <img src="/assets/hum.svg" class="w-6 h-6" alt="unfold"/>
       </button>
-      {% set cleanedUrl = page.url | replace('/fr/', '/') | removeTrailingSlash %}
+      {# {% set cleanedUrl = page.url | replace('/fr/', '/') | removeTrailingSlash %} #}
       <!-- Language Dropdown -->
       {# <div class="relative inline-block">
         <button id="language-toggle" class="flex items-center gap-1 hover:text-red text-sm lg:text-md font-black font-sans">
