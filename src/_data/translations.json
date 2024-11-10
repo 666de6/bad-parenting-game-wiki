@@ -26,6 +26,10 @@
         {
           "title": "Comments",
           "url": "#comment"
+        },
+        {
+          "title": "Blog",
+          "url": "/blogentry"
         }
       ],
       "play-button": "Play Now",
@@ -49,9 +53,21 @@
       "title": "Bad Parenting 1 Download & Play Online | Bad Parenting Game Wiki",
       "description": "Bad Parenting 1: Mr Red Face is an innovative indie horror game that explores dark family dynamics through a psychological horror lens | Bad Parenting Game Wiki"
     },
-   "privacy": {
+    "privacy": {
       "title": "Bad Parenting 1: Mr Red Face Privacy | Bad Parenting Game Wiki",
       "description": "Welcome to badparentinggame.wiki. Bad Parenting Game is an innovative indie horror game that explores dark family dynamics | Bad Parenting Game Wiki"
+    },
+    "blogentry": {
+      "title": "Bad Parenting 1: Mr Red Face Blog | Bad Parenting Game Wiki",
+      "description": "Explore the latest updates, insights, and behind-the-scenes stories from the world of Bad Parenting Game! | Bad Parenting Game Wiki"
+    },
+    "bad-parenting-1": {
+      "title": "Bad Parenting 1: Mr. Red Face Guide | Bad Parenting Game Wiki",
+      "description": "Explore the dark psychological horror game Bad Parenting 1: Mr. Red Face, delving into themes of family trauma and supernatural elements. | Bad Parenting Game Wiki"
+    },
+    "is-bad-parenting-based-on-a-true-story": {
+      "title": "Is Bad Parenting Based on a True Story? | Bad Parenting Game Wiki",
+      "description": "Explore the truth behind the viral indie horror game Bad Parenting, separating fact from fiction in its haunting narrative. | Bad Parenting Game Wiki"
     }
     
   },
