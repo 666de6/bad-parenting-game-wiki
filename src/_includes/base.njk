@@ -193,7 +193,6 @@
       const currentUrlPathname = window.location.pathname;
       const currentUrl = currentUrlHash ? currentUrlPathname + currentUrlHash : currentUrlPathname;
 
-      console.log(currentUrl)
       const navLinks = document.querySelectorAll('.nav-link');
 
       navLinks.forEach(link => {
@@ -208,7 +207,6 @@
         const currentUrl = currentUrlHash ? currentUrlPathname + currentUrlHash : currentUrlPathname;
         navLinks.forEach(link => {
           link.classList.remove('text-red');
-          console.log(link.getAttribute('href'), currentUrl)
           if (link.getAttribute('href') === currentUrl) {
             link.classList.add('text-red');
           }
