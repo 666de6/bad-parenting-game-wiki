@@ -12,20 +12,16 @@
           "url": "/bad-parenting-game/"
         },
         {
-          "title": "Bad Parenting Apk",
+          "title": "Bad Parenting APK",
           "url": "/bad-parenting-apk/"
         },
         {
-          "title": "Gallery",
-          "url": "/#gallery"
+          "title": "Bad Parenting 2",
+          "url": "/bad-parenting-2/"
         },
         {
           "title": "Download",
           "url": "/#download"
-        },
-        {
-          "title": "Comments",
-          "url": "/#comment"
         },
         {
           "title": "Blog",
@@ -50,32 +46,36 @@
       }
     },
     "index": {
-      "title": "Bad Parenting Download & Play Online | Bad Parenting Wiki",
+      "title": "Bad Parenting: Download & Play Online | Bad Parenting Wiki",
       "description": "Bad Parenting 1: Mr. Red Face is an innovative indie horror game that explores dark family dynamics through a psychological horror lens | Bad Parenting Wiki"
     },
     "privacy": {
-      "title": "Bad Parenting 1: Mr. Red Face Privacy | Bad Parenting Wiki",
+      "title": "Bad Parenting Wiki: Privacy Policy | Bad Parenting Wiki",
       "description": "Welcome to badparentinggame.wiki. Bad Parenting Game is an innovative indie horror game that explores dark family dynamics | Bad Parenting Wiki"
     },
+    "bad-parenting-game": {
+      "title": "Bad Parenting Game: Download & Play Online | Bad Parenting Game",
+      "description": "Delve into the world of Bad Parenting Game, a psychological horror game that has taken the gaming community by storm. | Bad Parenting Game"
+    },
+    "bad-parenting-apk": {
+      "title": "Bad Parenting APK For Android | Bad Parenting Download",
+      "description": "Download the APK of Bad Parenting Game for Android devices and experience the psychological horror game that has taken the gaming community by storm. | Bad Parenting Download"
+    },
+    "bad-parenting-2": {
+      "title": "Bad Parenting 2: The Next Chapter | Bad Parenting Wiki",
+      "description": "Explore the latest installment of the Bad Parenting series, delving deeper into the psychological horror elements and dark family dynamics. | Bad Parenting Wiki"
+    },
     "blogentry": {
-      "title": "Bad Parenting 1: Mr. Red Face Blog | Bad Parenting Wiki",
+      "title": "Bad Parenting Game Blog & Guide | Bad Parenting Wiki",
       "description": "Explore the latest updates, insights, and behind-the-scenes stories from the world of Bad Parenting Game! | Bad Parenting Wiki"
     },
     "bad-parenting-1": {
-      "title": "Bad Parenting 1: Mr. Red Face Guide | Bad Parenting Wiki",
-      "description": "Explore the dark psychological horror game Bad Parenting 1: Mr. Red Face, delving into themes of family trauma and supernatural elements. | Bad Parenting Wiki"
+      "title": "Bad Parenting 1: Mr. Red Face Beginner's Guide | Bad Parenting Blog",
+      "description": "Explore the dark psychological horror game Bad Parenting 1: Mr. Red Face, delving into themes of family trauma and supernatural elements. | Bad Parenting Blog"
     },
     "is-bad-parenting-based-on-a-true-story": {
-      "title": "Is Bad Parenting Based on a True Story? | Bad Parenting Wiki",
-      "description": "Explore the truth behind the viral indie horror game Bad Parenting, separating fact from fiction in its haunting narrative. | Bad Parenting Wiki"
-    },
-    "bad-parenting-game": {
-      "title": "Bad Parenting 1: Mr. Red Face Play Online | Bad Parenting Wiki",
-      "description": "Delve into the world of Bad Parenting Game, a psychological horror game that has taken the gaming community by storm. | Bad Parenting Wiki"
-    },
-    "bad-parenting-apk": {
-      "title": "Bad Parenting APK For Android Download | Bad Parenting Wiki",
-      "description": "Download the APK of Bad Parenting Game for Android devices and experience the psychological horror game that has taken the gaming community by storm. | Bad Parenting Wiki"
+      "title": "Is Bad Parenting Based on a True Story? | Bad Parenting Blog",
+      "description": "Explore the truth behind the viral indie horror game Bad Parenting, separating fact from fiction in its haunting narrative. | Bad Parenting Blog"
     }
     
   },
